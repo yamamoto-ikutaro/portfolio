@@ -1,0 +1,877 @@
+@charset "utf-8";
+
+// @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=WindSong&display=swap');
+
+@mixin fontsize($size: 24) {
+
+font-size: $size + px;
+
+font-size: ($size / 10) * 1rem;
+
+}
+
+
+$windSong : 'WindSong', cursive;
+$NotoSansJP : 'Noto Sans JP', sans-serif;
+
+$blue1 : #42b9d0;
+$gray_blue : #eaf2f4;
+
+html {
+
+  font-size: 62.5%;
+
+}
+
+body{
+  margin:0;
+  letter-spacing:0.2rem;
+}
+
+
+section{
+  padding:0;
+}
+
+.background{
+  background-color:rgba(176, 224, 230, 0.5);
+}
+
+
+.title{
+  font-size:5.0rem;
+  font-weight:bold;
+  padding-bottom:20px;
+  font-family:$NotoSansJP;
+  color:#fffafa;
+}
+
+.text-center{
+  text-align:center;
+}
+
+@media(min-width: 769px){
+  .content{
+    display:flex;
+    justify-content:center;
+    width:100%;
+  }
+}
+
+header{
+  position:fixed;
+  font-family: $windSong;
+  height:70px;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  z-index:10;
+  
+    #site-title h1{
+      line-height:65px;
+      font-size:3.0rem;
+      font-weight: bold;
+      margin:0;
+      padding-left:5px;
+      color:#FFF;
+    }
+    
+    #open{
+      display:none;
+    }
+    
+    #category{
+      
+      ul{
+        display:flex;
+        font-family:$NotoSansJP;
+        list-style:none;
+        margin-top:20px;
+        
+        a{
+          margin-right:15px;
+          margin-top:25px;
+          font-size:2.0rem;
+          text-decoration:none;
+          color:#c0c0c0;
+        }
+        
+      }
+      
+    }
+
+    
+    @media(max-width: 768px){
+      #sp-menu{
+        display:block;
+        font-size:30px;
+        color:#FFF;
+        margin-top:10px;
+        margin-right:20px;
+        
+        div{
+          width:25px;
+          
+          #open{
+            display:block;
+            cursor:pointer;
+            position:relative;
+          }
+          
+        }
+        
+      }
+      
+      #category{
+        transform:translateY(-300px);
+        transition:transform .5s;
+      }
+      
+      #category.show{
+        display:block;
+        position:absolute;
+        top:10px;
+        right:200px;
+        transform:translateY(16px);
+        
+        ul{
+          display:block;
+          width:197px;
+          background-color:#FFF;
+          padding:0 10px 10px 10px;
+          border-radius:5px;
+          margin-top:35px;
+          
+          
+          li{
+            border-bottom:1px solid #778899;
+            
+            a{
+              color:#778899;
+            }
+            
+          }
+          
+        }
+        
+      }
+      
+    }
+  
+}
+
+main{
+  // プロフィール自己紹介文
+  @media(max-width: 768px){
+    #profile_content{
+      margin:auto;
+      background-image: url(../images/背景画像.jpg);
+      background-size:cover;
+      padding:50px 0;
+      
+        #profile_image{
+          margin:auto;
+          display:block;
+          border-radius:50%;
+        }
+          #intro{
+            margin:30px auto;
+            position:relative;
+            font-size:1.2rem;
+            width:315px;
+            height:auto;
+            padding:10px;
+            border-radius: 10px;
+            background:radial-gradient(#ffffff, #dcdcdc);
+          }
+          
+          #intro::after{
+            position:absolute;
+            content:'';
+            border: 15px solid transparent;
+            border-bottom: 35px solid #dcdcdc;
+            left: 43%;
+            top:-50px;
+          }
+    }     
+  }
+        
+@media(min-width: 769px){
+  #profile_content{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    background-image: url(../images/背景画像.jpg);
+    background-size:cover;
+    padding:140px 0;
+    
+      #profile_image{
+        display:block;
+        border-radius:50%;
+      }
+    
+  }
+  
+  #intro{
+    position:relative;
+    top:-87px;
+    left:110px;
+    font-size:1.2rem;
+    width:410px;
+    height:240px;
+    border-radius: 50%;
+    background:radial-gradient(#ffffff, #dcdcdc);
+  }
+  
+  #intro::before{
+    content:'';
+    position:absolute;
+    top:155px;
+    left:-60px;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color:#dcdcdc;
+  }
+  
+  #intro::after{
+    content:'';
+    position:absolute;
+    top:173px;
+    left:-80px;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color:#dcdcdc;
+  }
+
+  #circle{
+    content:'';
+    position:absolute;
+    top:135px;
+    left:-30px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color:#dcdcdc;
+  }
+  
+  #description{
+    position:absolute;
+    top:58px;
+    left:38px;
+    margin:0;
+    width:330px;
+    font-size:1.4rem;
+  }
+
+}
+// ここまで
+
+// skills
+section#skills{
+  background-image:url(../images/スキル.jpg);
+  background-size:cover;
+  
+  #html_css, #php_laravel, #english{
+    width:80%;
+    height:auto;
+    padding:10px;
+    border-radius:5px;
+    margin:0 auto;
+    padding-bottom:10px;
+    
+    .skill-circle{
+      position:relative;
+      background-color:#ffffff;
+      padding:10px;
+      border-radius:50%;
+      width:130px;
+      height:130px;
+      margin:auto;
+      
+        h3#title_html_css{
+          position:absolute;
+          top:20px;
+          left:25px;
+          font-size:1.6rem;
+        }
+        
+        h3#title_php{
+          position:absolute;
+          top:20px;
+          left:57px;
+          font-size:1.6rem;
+        }
+        
+        h3#title_php_laravel{
+          position:absolute;
+          top:20px;
+          left:12px;
+          font-size:1.6rem;
+        }
+        
+        h3#title_english{
+          position:absolute;
+          top:20px;
+          left:36px;
+          font-size:1.6rem;
+        }
+        
+        #coding-icon{
+          position:absolute;
+          top:70px;
+          left:45px;
+          font-size:5.0rem;
+          color:#7fff00;
+        }
+        
+        #php-icon{
+          position:absolute;
+          top:70px;
+          left:45px;
+          font-size:5.0rem;
+          color:#191970;
+        }
+        
+        #pen-icon{
+          position:absolute;
+          top:70px;
+          left:50px;
+          font-size:5.0rem;
+          color:#000000;
+        }
+      
+    }
+    
+    
+    .skill-description{
+      text-align:left;
+      margin-top:15px;
+      
+      @media(max-width: 768px){
+        p{
+          display:block;
+          margin:auto;
+          padding:10px;
+          border-radius:5px;
+          width:50%;
+          color:#fffafa;
+          font-size:1.3rem;
+        }
+      }
+      
+      @media(min-width: 769px){
+        p{
+          display:block;
+          margin:auto;
+          padding:10px;
+          border-radius:5px;
+          width:75%;
+          color:#fffafa;
+          font-size:1.3rem;
+        }
+      }
+    }
+    
+  }
+  
+}
+// ここまで
+
+// works
+#works{
+  background-image:url(../images/オリジナルサイト.jpg);
+  background-size:cover;
+  
+  .title{
+    color:#90ee90;
+    padding-top:80px;
+  }
+  
+  .content{
+    display:block;
+    
+    @media(min-width:769px){
+      #ecsite{
+        width:90%;
+        display:flex;
+        justify-content:center;
+        padding:160px 50px;
+        border-radius:5px;
+        
+        .site-image-box{
+          
+          div.box-content{
+            position:relative;
+            width:100%;
+            height:500px;
+            
+            #ecsite_image{
+              display:block;
+              border-radius:5px;
+            }
+            
+            .box-inner{
+              display:none;
+            }
+            
+            &:hover{
+              
+              .box-inner{
+                display:block;
+                position:absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                background-color:rgba(0, 0, 0, 0.3);
+                text-align:center;
+                padding-top:130px;
+
+                  h3{
+                    color:#FFF;
+                    font-size:3.2rem;
+                  }
+                  
+                  a{
+                    text-decoration:none;
+                    
+                    span.site-button{
+                      font-size:2.4rem;
+                      padding:10px;
+                      background-color:#4169e1;
+                      border-radius:5px;
+                      color:#FFF;
+                    }
+                    
+                  }
+
+              }
+              
+            }
+            
+          }
+          
+        }
+        
+        .site-description{
+          margin-left:95px;
+          color:#808080;
+          
+          h3{
+            text-align:left;
+            border-bottom:solid 1px #808080;
+            font-size:2.0rem;
+          }
+          
+          h4{
+            font-size:1.5rem;
+            margin-bottom:0;
+          }
+          
+          p{
+            font-size:1.6rem;
+            margin-top:0;
+          }
+          
+          .site_intro_icon{
+            a{
+              font-size:3.2rem;
+              display:inline-block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+            }
+            a:last-child{
+              margin-right:0;
+            }
+          }
+          
+        }
+        
+      }
+      
+      #task_management{
+        width:90%;
+        display:flex;
+        justify-content:center;
+        padding:10px 10px 30px 10px;
+        border-radius:5px;
+        
+        .site-image-box{
+          
+          div.box-content{
+            position:relative;
+            width:100%;
+            height:380px;
+            
+            #task_app_image{
+              display:block;
+              border-radius:5px;
+            }
+            
+            .box-inner{
+              display:none;
+            }
+            
+            &:hover{
+              
+              .box-inner{
+                display:block;
+                position:absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                background-color:rgba(0, 0, 0, 0.3);
+                text-align:center;
+                padding-top:90px;
+
+                  h3{
+                    color:#FFF;
+                    font-size:3.2rem;
+                  }
+                  
+                  a{
+                    text-decoration:none;
+                    
+                    span.site-button{
+                      font-size:2.4rem;
+                      padding:10px;
+                      background-color:#4169e1;
+                      border-radius:5px;
+                      color:#FFF;
+                    }
+                    
+                  }
+
+              }
+              
+            }
+            
+          }
+          
+        }
+        
+        .site-description{
+          margin-right:95px;
+          color:#808080;
+          
+          h3{
+            text-align:left;
+            border-bottom:solid 1px #808080;
+            font-size:2.0rem;
+          }
+          
+          h4{
+            font-size:1.5rem;
+            margin-bottom:0;
+          }
+          
+          p{
+            font-size:1.6rem;
+            margin-top:0;
+          }
+          
+          .site_intro_icon{
+            a{
+              font-size:3.2rem;
+              display:inline-block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+            }
+            a:last-child{
+              margin-right:0;
+            }
+          }
+          
+        }
+      }
+      
+    }
+    
+    @media(max-width:768px){
+      #ecsite{
+        width:90%;
+        border-radius:5px;
+        margin:0 auto 60px;
+        
+        .site-image-box{
+          
+          .box-content{
+            position:relative;
+            
+            #ecsite_image{
+              display:block;
+              margin:auto;
+              width:100%;
+              height:100%;
+              border-radius:5px;
+            }
+            
+            .box-inner{
+              position:absolute;
+              background-color:rgba(0, 0, 0, 0.3);
+              top:0;
+              bottom:0;
+              left:0;
+              right:0;
+              display:flex;
+              flex-direction:column;
+              justify-content:center;
+              align-items: center;
+              
+              
+              h3{
+                color:#FFF;
+                font-size:3.2rem;
+                margin-top:0;
+              }
+              
+              a{
+                text-decoration:none;
+                
+                span.site-button{
+                  font-size:2.4rem;
+                  padding:10px;
+                  background-color:#4169e1;
+                  border-radius:5px;
+                  color:#FFF;
+                }
+                
+              }
+              
+            }
+            
+          }
+          
+        }
+
+        .site-description{
+          margin-bottom:20px;
+          color:#808080;
+          
+          h3{
+            text-align:left;
+            font-size:30px;
+            border-bottom:solid 1px #808080;
+          }
+          
+          h4{
+            font-size:15px;
+            margin-bottom:0;
+          }
+          
+          p{
+            font-size:1.6rem;
+            margin-top:0;
+          }
+          
+          .site_intro_icon{
+            a{
+              font-size:3.2rem;
+              display:block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+            }
+            a:last-child{
+              margin-right:0;
+            }
+          }
+          
+        }
+      }
+      
+      #task_management{
+        width:90%;
+        border-radius:5px;
+        margin:auto;
+        padding-bottom:30px;
+        display:flex;
+        flex-direction:column;
+        order:2;
+        
+        .site-image-box{
+          
+          .box-content{
+            position:relative;
+            
+            #task_app_image{
+              display:block;
+              margin:auto;
+              width:100%;
+              height:100%;
+              border-radius:5px;
+            }
+            
+            .box-inner{
+              position:absolute;
+              background-color:rgba(0, 0, 0, 0.3);
+              top:0;
+              bottom:0;
+              left:0;
+              right:0;
+              display:flex;
+              flex-direction:column;
+              justify-content:center;
+              align-items: center;
+              
+              h3{
+                color:#FFF;
+                font-size:3.2rem;
+                margin-top:0;
+                text-align:center;
+              }
+              
+              a{
+                text-decoration:none;
+                
+                span.site-button{
+                  font-size:2.4rem;
+                  padding:10px;
+                  background-color:#4169e1;
+                  border-radius:5px;
+                  color:#FFF;
+                }
+                
+              }
+              
+            }
+            
+          }
+          
+        }
+        
+        
+        .site-description{
+          order:1;
+          color:#808080;
+          
+          h3{
+            text-align:left;
+            font-size:30px;
+            border-bottom:solid 1px #808080;
+          }
+          
+          h4{
+            font-size:15px;
+            margin-bottom:0;
+          }
+          
+          p{
+            font-size:1.6rem;
+            margin-top:0;
+          }
+          
+          .site_intro_icon{
+            a{
+              font-size:3.2rem;
+              display:block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+            }
+            a:last-child{
+              margin-right:0;
+            }
+          }
+          
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+// ここまで
+
+// contact
+#contact{
+  background-color:#fffacd;
+  padding-bottom:30px;
+  
+  .content{
+    display:block;
+    width:70%;
+    margin:auto;
+    
+    .title{
+      color:#48d1cc;
+    }
+    
+    @media(min-width:769px){
+      
+      .form{
+        display:block;
+        width:350px;
+        height:30px;
+        margin:0 auto 10px;
+      }
+      
+      #form-message{
+        display:block;
+        width:350px;
+        margin:auto;
+      }
+      
+    }
+      
+    @media(max-width:768px){
+      
+      .form{
+        display:block;
+        width:80%;
+        height:30px;
+        margin:0 auto 10px;
+      }
+      
+      #form-message{
+        display:block;
+        width:80%;
+        margin:auto;
+      }
+      
+    }
+    
+    #submit{
+      width:70px;
+      padding:5px;
+      background-color:#4169e1;
+      border-radius:15px;
+      font-size:1.5rem;
+      font-weight:bold;
+      color:#FFF;
+      display:block;
+      margin:30px auto 0;
+    }
+    
+  }
+  
+}
+// ここまで
+
+}
+
+ul#validation{
+  font-size:1.5rem;
+  color:#ff6347;
+  
+  li.validation-message{
+    list-style:none;
+  }
+  
+}
+
+#session{
+  text-align:center;
+  font-size:3.0rem;
+  background-color:#ff7f50;
+  padding:10px;
+  color:#ffffff;
+}

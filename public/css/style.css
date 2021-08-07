@@ -1,0 +1,544 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=WindSong&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  letter-spacing: 0.2rem; }
+
+section {
+  padding: 0; }
+
+.background {
+  background-color: rgba(176, 224, 230, 0.5); }
+
+.title {
+  font-size: 5.0rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fffafa; }
+
+.text-center {
+  text-align: center; }
+
+@media (min-width: 769px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    width: 100%; } }
+header {
+  position: fixed;
+  font-family: "WindSong", cursive;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 10; }
+  header #site-title h1 {
+    line-height: 65px;
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 5px;
+    color: #FFF; }
+  header #open {
+    display: none; }
+  header #category ul {
+    display: flex;
+    font-family: "Noto Sans JP", sans-serif;
+    list-style: none;
+    margin-top: 20px; }
+    header #category ul a {
+      margin-right: 15px;
+      margin-top: 25px;
+      font-size: 2.0rem;
+      text-decoration: none;
+      color: #c0c0c0; }
+  @media (max-width: 768px) {
+    header #sp-menu {
+      display: block;
+      font-size: 30px;
+      color: #FFF;
+      margin-top: 10px;
+      margin-right: 20px; }
+      header #sp-menu div {
+        width: 25px; }
+        header #sp-menu div #open {
+          display: block;
+          cursor: pointer;
+          position: relative; }
+    header #category {
+      transform: translateY(-300px);
+      transition: transform .5s; }
+    header #category.show {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 200px;
+      transform: translateY(16px); }
+      header #category.show ul {
+        display: block;
+        width: 197px;
+        background-color: #FFF;
+        padding: 0 10px 10px 10px;
+        border-radius: 5px;
+        margin-top: 35px; }
+        header #category.show ul li {
+          border-bottom: 1px solid #778899; }
+          header #category.show ul li a {
+            color: #778899; } }
+
+@media (max-width: 768px) {
+  main #profile_content {
+    margin: auto;
+    background-image: url(../images/背景画像.jpg);
+    background-size: cover;
+    padding: 50px 0; }
+    main #profile_content #profile_image {
+      margin: auto;
+      display: block;
+      border-radius: 50%; }
+    main #profile_content #intro {
+      margin: 30px auto;
+      position: relative;
+      font-size: 1.2rem;
+      width: 315px;
+      height: auto;
+      padding: 10px;
+      border-radius: 10px;
+      background: radial-gradient(#ffffff, #dcdcdc); }
+    main #profile_content #intro::after {
+      position: absolute;
+      content: '';
+      border: 15px solid transparent;
+      border-bottom: 35px solid #dcdcdc;
+      left: 43%;
+      top: -50px; } }
+@media (min-width: 769px) {
+  main #profile_content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/背景画像.jpg);
+    background-size: cover;
+    padding: 140px 0; }
+    main #profile_content #profile_image {
+      display: block;
+      border-radius: 50%; }
+  main #intro {
+    position: relative;
+    top: -87px;
+    left: 110px;
+    font-size: 1.2rem;
+    width: 410px;
+    height: 240px;
+    border-radius: 50%;
+    background: radial-gradient(#ffffff, #dcdcdc); }
+  main #intro::before {
+    content: '';
+    position: absolute;
+    top: 155px;
+    left: -60px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #dcdcdc; }
+  main #intro::after {
+    content: '';
+    position: absolute;
+    top: 173px;
+    left: -80px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #dcdcdc; }
+  main #circle {
+    content: '';
+    position: absolute;
+    top: 135px;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #dcdcdc; }
+  main #description {
+    position: absolute;
+    top: 58px;
+    left: 38px;
+    margin: 0;
+    width: 330px;
+    font-size: 1.4rem; } }
+main section#skills {
+  background-image: url(../images/スキル.jpg);
+  background-size: cover; }
+  main section#skills #html_css, main section#skills #php_laravel, main section#skills #english {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 10px; }
+    main section#skills #html_css .skill-circle, main section#skills #php_laravel .skill-circle, main section#skills #english .skill-circle {
+      position: relative;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 50%;
+      width: 130px;
+      height: 130px;
+      margin: auto; }
+      main section#skills #html_css .skill-circle h3#title_html_css, main section#skills #php_laravel .skill-circle h3#title_html_css, main section#skills #english .skill-circle h3#title_html_css {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        font-size: 1.6rem; }
+      main section#skills #html_css .skill-circle h3#title_php, main section#skills #php_laravel .skill-circle h3#title_php, main section#skills #english .skill-circle h3#title_php {
+        position: absolute;
+        top: 20px;
+        left: 57px;
+        font-size: 1.6rem; }
+      main section#skills #html_css .skill-circle h3#title_php_laravel, main section#skills #php_laravel .skill-circle h3#title_php_laravel, main section#skills #english .skill-circle h3#title_php_laravel {
+        position: absolute;
+        top: 20px;
+        left: 12px;
+        font-size: 1.6rem; }
+      main section#skills #html_css .skill-circle h3#title_english, main section#skills #php_laravel .skill-circle h3#title_english, main section#skills #english .skill-circle h3#title_english {
+        position: absolute;
+        top: 20px;
+        left: 36px;
+        font-size: 1.6rem; }
+      main section#skills #html_css .skill-circle #coding-icon, main section#skills #php_laravel .skill-circle #coding-icon, main section#skills #english .skill-circle #coding-icon {
+        position: absolute;
+        top: 70px;
+        left: 45px;
+        font-size: 5.0rem;
+        color: #7fff00; }
+      main section#skills #html_css .skill-circle #php-icon, main section#skills #php_laravel .skill-circle #php-icon, main section#skills #english .skill-circle #php-icon {
+        position: absolute;
+        top: 70px;
+        left: 45px;
+        font-size: 5.0rem;
+        color: #191970; }
+      main section#skills #html_css .skill-circle #pen-icon, main section#skills #php_laravel .skill-circle #pen-icon, main section#skills #english .skill-circle #pen-icon {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        font-size: 5.0rem;
+        color: #000000; }
+    main section#skills #html_css .skill-description, main section#skills #php_laravel .skill-description, main section#skills #english .skill-description {
+      text-align: left;
+      margin-top: 15px; }
+      @media (max-width: 768px) {
+        main section#skills #html_css .skill-description p, main section#skills #php_laravel .skill-description p, main section#skills #english .skill-description p {
+          display: block;
+          margin: auto;
+          padding: 10px;
+          border-radius: 5px;
+          width: 50%;
+          color: #fffafa;
+          font-size: 1.3rem; } }
+      @media (min-width: 769px) {
+        main section#skills #html_css .skill-description p, main section#skills #php_laravel .skill-description p, main section#skills #english .skill-description p {
+          display: block;
+          margin: auto;
+          padding: 10px;
+          border-radius: 5px;
+          width: 75%;
+          color: #fffafa;
+          font-size: 1.3rem; } }
+main #works {
+  background-image: url(../images/オリジナルサイト.jpg);
+  background-size: cover; }
+  main #works .title {
+    color: #90ee90;
+    padding-top: 80px; }
+  main #works .content {
+    display: block; }
+    @media (min-width: 769px) {
+      main #works .content #ecsite {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding: 160px 50px;
+        border-radius: 5px; }
+        main #works .content #ecsite .site-image-box div.box-content {
+          position: relative;
+          width: 100%;
+          height: 500px; }
+          main #works .content #ecsite .site-image-box div.box-content #ecsite_image {
+            display: block;
+            border-radius: 5px; }
+          main #works .content #ecsite .site-image-box div.box-content .box-inner {
+            display: none; }
+          main #works .content #ecsite .site-image-box div.box-content:hover .box-inner {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding-top: 130px; }
+            main #works .content #ecsite .site-image-box div.box-content:hover .box-inner h3 {
+              color: #FFF;
+              font-size: 3.2rem; }
+            main #works .content #ecsite .site-image-box div.box-content:hover .box-inner a {
+              text-decoration: none; }
+              main #works .content #ecsite .site-image-box div.box-content:hover .box-inner a span.site-button {
+                font-size: 2.4rem;
+                padding: 10px;
+                background-color: #4169e1;
+                border-radius: 5px;
+                color: #FFF; }
+        main #works .content #ecsite .site-description {
+          margin-left: 95px;
+          color: #808080; }
+          main #works .content #ecsite .site-description h3 {
+            text-align: left;
+            border-bottom: solid 1px #808080;
+            font-size: 2.0rem; }
+          main #works .content #ecsite .site-description h4 {
+            font-size: 1.5rem;
+            margin-bottom: 0; }
+          main #works .content #ecsite .site-description p {
+            font-size: 1.6rem;
+            margin-top: 0; }
+          main #works .content #ecsite .site-description .site_intro_icon a {
+            font-size: 3.2rem;
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222; }
+          main #works .content #ecsite .site-description .site_intro_icon a:last-child {
+            margin-right: 0; }
+      main #works .content #task_management {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px 30px 10px;
+        border-radius: 5px; }
+        main #works .content #task_management .site-image-box div.box-content {
+          position: relative;
+          width: 100%;
+          height: 380px; }
+          main #works .content #task_management .site-image-box div.box-content #task_app_image {
+            display: block;
+            border-radius: 5px; }
+          main #works .content #task_management .site-image-box div.box-content .box-inner {
+            display: none; }
+          main #works .content #task_management .site-image-box div.box-content:hover .box-inner {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding-top: 90px; }
+            main #works .content #task_management .site-image-box div.box-content:hover .box-inner h3 {
+              color: #FFF;
+              font-size: 3.2rem; }
+            main #works .content #task_management .site-image-box div.box-content:hover .box-inner a {
+              text-decoration: none; }
+              main #works .content #task_management .site-image-box div.box-content:hover .box-inner a span.site-button {
+                font-size: 2.4rem;
+                padding: 10px;
+                background-color: #4169e1;
+                border-radius: 5px;
+                color: #FFF; }
+        main #works .content #task_management .site-description {
+          margin-right: 95px;
+          color: #808080; }
+          main #works .content #task_management .site-description h3 {
+            text-align: left;
+            border-bottom: solid 1px #808080;
+            font-size: 2.0rem; }
+          main #works .content #task_management .site-description h4 {
+            font-size: 1.5rem;
+            margin-bottom: 0; }
+          main #works .content #task_management .site-description p {
+            font-size: 1.6rem;
+            margin-top: 0; }
+          main #works .content #task_management .site-description .site_intro_icon a {
+            font-size: 3.2rem;
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222; }
+          main #works .content #task_management .site-description .site_intro_icon a:last-child {
+            margin-right: 0; } }
+    @media (max-width: 768px) {
+      main #works .content #ecsite {
+        width: 90%;
+        border-radius: 5px;
+        margin: 0 auto 60px; }
+        main #works .content #ecsite .site-image-box .box-content {
+          position: relative; }
+          main #works .content #ecsite .site-image-box .box-content #ecsite_image {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px; }
+          main #works .content #ecsite .site-image-box .box-content .box-inner {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            main #works .content #ecsite .site-image-box .box-content .box-inner h3 {
+              color: #FFF;
+              font-size: 3.2rem;
+              margin-top: 0; }
+            main #works .content #ecsite .site-image-box .box-content .box-inner a {
+              text-decoration: none; }
+              main #works .content #ecsite .site-image-box .box-content .box-inner a span.site-button {
+                font-size: 2.4rem;
+                padding: 10px;
+                background-color: #4169e1;
+                border-radius: 5px;
+                color: #FFF; }
+        main #works .content #ecsite .site-description {
+          margin-bottom: 20px;
+          color: #808080; }
+          main #works .content #ecsite .site-description h3 {
+            text-align: left;
+            font-size: 30px;
+            border-bottom: solid 1px #808080; }
+          main #works .content #ecsite .site-description h4 {
+            font-size: 15px;
+            margin-bottom: 0; }
+          main #works .content #ecsite .site-description p {
+            font-size: 1.6rem;
+            margin-top: 0; }
+          main #works .content #ecsite .site-description .site_intro_icon a {
+            font-size: 3.2rem;
+            display: block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222; }
+          main #works .content #ecsite .site-description .site_intro_icon a:last-child {
+            margin-right: 0; }
+      main #works .content #task_management {
+        width: 90%;
+        border-radius: 5px;
+        margin: auto;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        order: 2; }
+        main #works .content #task_management .site-image-box .box-content {
+          position: relative; }
+          main #works .content #task_management .site-image-box .box-content #task_app_image {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px; }
+          main #works .content #task_management .site-image-box .box-content .box-inner {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; }
+            main #works .content #task_management .site-image-box .box-content .box-inner h3 {
+              color: #FFF;
+              font-size: 3.2rem;
+              margin-top: 0;
+              text-align: center; }
+            main #works .content #task_management .site-image-box .box-content .box-inner a {
+              text-decoration: none; }
+              main #works .content #task_management .site-image-box .box-content .box-inner a span.site-button {
+                font-size: 2.4rem;
+                padding: 10px;
+                background-color: #4169e1;
+                border-radius: 5px;
+                color: #FFF; }
+        main #works .content #task_management .site-description {
+          order: 1;
+          color: #808080; }
+          main #works .content #task_management .site-description h3 {
+            text-align: left;
+            font-size: 30px;
+            border-bottom: solid 1px #808080; }
+          main #works .content #task_management .site-description h4 {
+            font-size: 15px;
+            margin-bottom: 0; }
+          main #works .content #task_management .site-description p {
+            font-size: 1.6rem;
+            margin-top: 0; }
+          main #works .content #task_management .site-description .site_intro_icon a {
+            font-size: 3.2rem;
+            display: block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222; }
+          main #works .content #task_management .site-description .site_intro_icon a:last-child {
+            margin-right: 0; } }
+main #contact {
+  background-color: #fffacd;
+  padding-bottom: 30px; }
+  main #contact .content {
+    display: block;
+    width: 70%;
+    margin: auto; }
+    main #contact .content .title {
+      color: #48d1cc; }
+    @media (min-width: 769px) {
+      main #contact .content .form {
+        display: block;
+        width: 350px;
+        height: 30px;
+        margin: 0 auto 10px; }
+      main #contact .content #form-message {
+        display: block;
+        width: 350px;
+        margin: auto; } }
+    @media (max-width: 768px) {
+      main #contact .content .form {
+        display: block;
+        width: 80%;
+        height: 30px;
+        margin: 0 auto 10px; }
+      main #contact .content #form-message {
+        display: block;
+        width: 80%;
+        margin: auto; } }
+    main #contact .content #submit {
+      width: 70px;
+      padding: 5px;
+      background-color: #4169e1;
+      border-radius: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #FFF;
+      display: block;
+      margin: 30px auto 0; }
+
+ul#validation {
+  font-size: 1.5rem;
+  color: #ff6347; }
+  ul#validation li.validation-message {
+    list-style: none; }
+
+#session {
+  text-align: center;
+  font-size: 3.0rem;
+  background-color: #ff7f50;
+  padding: 10px;
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
