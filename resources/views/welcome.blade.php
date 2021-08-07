@@ -110,7 +110,7 @@
                 <img src="images/ecsiteイメージ.png" alt="通販サイトイメージ" width="500px" height="500px" id="ecsite_image">
                 <div class="box-inner">
                   <h3>ECSITE</h3>
-                  <a target="_blank" href="https://ecsites0212.herokuapp.com/">
+                  <a target="_blank" href="https://ecsite-yamamoto.herokuapp.com/">
                     <span class="site-button">サイトを開く</span>
                   </a>
                 </div>
@@ -128,7 +128,7 @@
               ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1uN6fkOI1-LVHViN_rUJL0ukGiWQ9ssZP7Nua4_VjhMM/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
-                <a target="_blank" href="https://github.com/IkutaroYamamoto/ecsite.git"><i class="fab fa-github"></i>コード</a>
+                <a target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
                 <a target="_blank" href="https://cacoo.com/diagrams/4WsRI9FLFUqkGhGT/F2301"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
@@ -146,7 +146,7 @@
               ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1KtvR9xzLwvU1iw5qVs04_VOPpsbPasTHOOe1_1u3VDE/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
-                <a target="_blank" href="https://github.com/IkutaroYamamoto/task-management.git"><i class="fab fa-github"></i>コード</a>
+                <a target="_blank" href="https://github.com/yamamoto-ikutaro/task_management.git"><i class="fab fa-github"></i>コード</a>
                 <a target="_blank" href="https://cacoo.com/diagrams/JtGklNewEnd730V3/EFBF8"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
@@ -155,7 +155,7 @@
                 <img src="images/業務管理イメージ.png" alt="業務管理サイトイメージ" width="500px" height="380px" id="task_app_image">
                 <div class="box-inner">
                   <h3>TASK MANAGEMENT</h3>
-                  <a target="_blank" href="https://task-management0212.herokuapp.com/">
+                  <a target="_blank" href="https://task-management-yamamoto.herokuapp.com/">
                     <span class="site-button">サイトを開く</span>
                   </a>
                 </div>
