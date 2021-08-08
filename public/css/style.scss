@@ -176,21 +176,21 @@ main{
           border-radius:50%;
         }
           #intro{
-            margin:30px auto;
+            margin:40px auto;
             position:relative;
             font-size:1.2rem;
             width:315px;
             height:auto;
             padding:10px;
             border-radius: 10px;
-            background:radial-gradient(#ffffff, #dcdcdc);
+            background-color:#FFF;
           }
           
           #intro::after{
             position:absolute;
             content:'';
             border: 15px solid transparent;
-            border-bottom: 35px solid #dcdcdc;
+            border-bottom: 35px solid #FFF;
             left: 43%;
             top:-50px;
           }
@@ -221,7 +221,7 @@ main{
     width:410px;
     height:240px;
     border-radius: 50%;
-    background:radial-gradient(#ffffff, #dcdcdc);
+    background-color:#FFF;
   }
   
   #intro::before{
@@ -232,7 +232,7 @@ main{
     width:25px;
     height:25px;
     border-radius:50%;
-    background-color:#dcdcdc;
+    background-color:#FFF;
   }
   
   #intro::after{
@@ -243,7 +243,7 @@ main{
     width:15px;
     height:15px;
     border-radius:50%;
-    background-color:#dcdcdc;
+    background-color:#FFF;
   }
 
   #circle{
@@ -254,7 +254,7 @@ main{
     width:30px;
     height:30px;
     border-radius:50%;
-    background-color:#dcdcdc;
+    background-color:#FFF;
   }
   
   #description{
