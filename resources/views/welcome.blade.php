@@ -58,7 +58,7 @@
       <img src="images/梅の画像.jpg" alt="プロフィール写真" width="200px" height="200px" id="profile_image">
       <div id="intro">
         <p id="description">
-          社会人3年目で、翻訳の仕事をしています。<br>約半年間プログラミング学習を続けており、<br>2か月間のオンラインスクールと独学を通して学んだHTML/CSS、PHP/Laravelでオリジナルサイトを作成しました。<br>
+          社会人3年目で、翻訳の仕事をしています。<br>約半年間プログラミング学習を続けており、<br>独学と2か月間のオンラインスクールを通して学んだHTML/CSS、PHP/Laravelでオリジナルサイトを作成しました。<br>
           現在では、JavaScriptの学習をしています。
         </p>
         <div id="circle"></div>
