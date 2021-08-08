@@ -129,7 +129,7 @@
               </p>
               <div class="site_intro_icon">
                 <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
-                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1IWMM9MCqEWTOuymHTUyya2zI4djwj_BiHjp7_zNIgYY/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
+                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1UxaXhIlCIQHF1g-CzA5YlKTmci9Y9vKfeLX9ervLi_8/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
           </div>
