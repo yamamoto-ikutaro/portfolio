@@ -671,16 +671,28 @@ section#skills{
           }
           
           .site_intro_icon{
-            a{
+            a.git{
               font-size:3.2rem;
               display:block;
               margin-right:10px;
               text-decoration:none;
               color:#b22222;
+              width:140px;
             }
+            
+            a.cacoo{
+              font-size:3.2rem;
+              display:block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+              width:210px;
+            }
+            
             a:last-child{
               margin-right:0;
             }
+            
           }
           
         }
@@ -768,16 +780,28 @@ section#skills{
           }
           
           .site_intro_icon{
-            a{
+            a.git{
               font-size:3.2rem;
               display:block;
               margin-right:10px;
               text-decoration:none;
               color:#b22222;
+              width:140px;
             }
+            
+            a.cacoo{
+              font-size:3.2rem;
+              display:block;
+              margin-right:10px;
+              text-decoration:none;
+              color:#b22222;
+              width:210px;
+            }
+            
             a:last-child{
               margin-right:0;
             }
+            
           }
           
         }

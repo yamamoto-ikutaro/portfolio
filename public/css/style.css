@@ -419,12 +419,20 @@ main #works {
           main #works .content #ecsite .site-description p {
             font-size: 1.6rem;
             margin-top: 0; }
-          main #works .content #ecsite .site-description .site_intro_icon a {
+          main #works .content #ecsite .site-description .site_intro_icon a.git {
             font-size: 3.2rem;
             display: block;
             margin-right: 10px;
             text-decoration: none;
-            color: #b22222; }
+            color: #b22222;
+            width: 140px; }
+          main #works .content #ecsite .site-description .site_intro_icon a.cacoo {
+            font-size: 3.2rem;
+            display: block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222;
+            width: 210px; }
           main #works .content #ecsite .site-description .site_intro_icon a:last-child {
             margin-right: 0; }
       main #works .content #task_management {
@@ -480,12 +488,20 @@ main #works {
           main #works .content #task_management .site-description p {
             font-size: 1.6rem;
             margin-top: 0; }
-          main #works .content #task_management .site-description .site_intro_icon a {
+          main #works .content #task_management .site-description .site_intro_icon a.git {
             font-size: 3.2rem;
             display: block;
             margin-right: 10px;
             text-decoration: none;
-            color: #b22222; }
+            color: #b22222;
+            width: 140px; }
+          main #works .content #task_management .site-description .site_intro_icon a.cacoo {
+            font-size: 3.2rem;
+            display: block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #b22222;
+            width: 210px; }
           main #works .content #task_management .site-description .site_intro_icon a:last-child {
             margin-right: 0; } }
 main #contact {

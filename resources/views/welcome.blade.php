@@ -128,8 +128,8 @@
               ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1uN6fkOI1-LVHViN_rUJL0ukGiWQ9ssZP7Nua4_VjhMM/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
-                <a target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
-                <a target="_blank" href="https://cacoo.com/diagrams/aEyS1uU8ruk5JzLb/9A3C7"><i class="far fa-map"></i>サイト設計</a>
+                <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
+                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/aEyS1uU8ruk5JzLb/9A3C7"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
           </div>
@@ -146,8 +146,8 @@
               ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1KtvR9xzLwvU1iw5qVs04_VOPpsbPasTHOOe1_1u3VDE/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
-                <a target="_blank" href="https://github.com/yamamoto-ikutaro/task_management.git"><i class="fab fa-github"></i>コード</a>
-                <a target="_blank" href="https://cacoo.com/diagrams/r5tavQho0dS68jbq/92D69"><i class="far fa-map"></i>サイト設計</a>
+                <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/task_management.git"><i class="fab fa-github"></i>コード</a>
+                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/r5tavQho0dS68jbq/92D69"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
             <div class="site-image-box">
