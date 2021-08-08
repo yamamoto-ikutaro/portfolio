@@ -251,7 +251,7 @@ main #works {
   background-image: url(../images/オリジナルサイト.jpg);
   background-size: cover; }
   main #works .title {
-    color: #90ee90;
+    color: #fffafa;
     padding-top: 80px; }
   main #works .content {
     display: block; }
@@ -489,14 +489,14 @@ main #works {
           main #works .content #task_management .site-description .site_intro_icon a:last-child {
             margin-right: 0; } }
 main #contact {
-  background-color: #fffacd;
+  background-color: #FFF9BA;
   padding-bottom: 30px; }
   main #contact .content {
     display: block;
     width: 70%;
     margin: auto; }
     main #contact .content .title {
-      color: #48d1cc; }
+      color: #fffafa; }
     @media (min-width: 769px) {
       main #contact .content .form {
         display: block;
