@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/b6083e34a0.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  
+  <link rel="stylesheet" href="css/style.css">
   
 
 </head>
@@ -107,7 +107,7 @@
           <div id="ecsite">
             <div class="site-image-box">
               <div class="box-content">
-                <img src="images/ecsiteイメージ.png" alt="通販サイトイメージ" width="500px" height="500px" id="ecsite_image">
+                <img src="images/ecsiteイメージ.png" alt="通販サイトイメージ" width="500px" height="460px" id="ecsite_image">
                 <div class="box-inner">
                   <h3>ECSITE</h3>
                   <a target="_blank" href="https://ecsite-yamamoto.herokuapp.com/">
@@ -152,7 +152,7 @@
             </div>
             <div class="site-image-box">
               <div class="box-content">
-                <img src="images/業務管理イメージ.png" alt="業務管理サイトイメージ" width="500px" height="380px" id="task_app_image">
+                <img src="images/業務管理イメージ.png" alt="業務管理サイトイメージ" width="500px" height="350px" id="task_app_image">
                 <div class="box-inner">
                   <h3>TASK MANAGEMENT</h3>
                   <a target="_blank" href="https://task-management-yamamoto.herokuapp.com/">

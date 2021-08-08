@@ -265,10 +265,11 @@ main #works {
         main #works .content #ecsite .site-image-box div.box-content {
           position: relative;
           width: 100%;
-          height: 500px; }
+          height: 460px; }
           main #works .content #ecsite .site-image-box div.box-content #ecsite_image {
             display: block;
-            border-radius: 5px; }
+            border-radius: 5px;
+            object-fit: cover; }
           main #works .content #ecsite .site-image-box div.box-content .box-inner {
             display: none; }
           main #works .content #ecsite .site-image-box div.box-content:hover .box-inner {
@@ -298,7 +299,8 @@ main #works {
           main #works .content #ecsite .site-description h3 {
             text-align: left;
             border-bottom: solid 1px #808080;
-            font-size: 2.0rem; }
+            font-size: 2.0rem;
+            margin-top: 0; }
           main #works .content #ecsite .site-description h4 {
             font-size: 1.5rem;
             margin-bottom: 0; }
@@ -322,10 +324,11 @@ main #works {
         main #works .content #task_management .site-image-box div.box-content {
           position: relative;
           width: 100%;
-          height: 380px; }
+          height: 350px; }
           main #works .content #task_management .site-image-box div.box-content #task_app_image {
             display: block;
-            border-radius: 5px; }
+            border-radius: 5px;
+            object-fit: cover; }
           main #works .content #task_management .site-image-box div.box-content .box-inner {
             display: none; }
           main #works .content #task_management .site-image-box div.box-content:hover .box-inner {
@@ -355,7 +358,8 @@ main #works {
           main #works .content #task_management .site-description h3 {
             text-align: left;
             border-bottom: solid 1px #808080;
-            font-size: 2.0rem; }
+            font-size: 2.0rem;
+            margin-top: 0; }
           main #works .content #task_management .site-description h4 {
             font-size: 1.5rem;
             margin-bottom: 0; }
@@ -382,7 +386,8 @@ main #works {
             margin: auto;
             width: 100%;
             height: 100%;
-            border-radius: 5px; }
+            border-radius: 5px;
+            object-fit: cover; }
           main #works .content #ecsite .site-image-box .box-content .box-inner {
             position: absolute;
             background-color: rgba(0, 0, 0, 0.3);
