@@ -51,7 +51,7 @@ section{
   text-align:center;
 }
 
-@media(min-width: 769px){
+@media(min-width: 1000px){
   .content{
     display:flex;
     justify-content:center;
@@ -102,7 +102,7 @@ header{
     }
 
     
-    @media(max-width: 768px){
+    @media(max-width: 999px){
       #sp-menu{
         display:block;
         font-size:30px;
@@ -163,7 +163,7 @@ header{
 
 main{
   // プロフィール自己紹介文
-  @media(max-width: 768px){
+  @media(max-width: 999px){
     #profile_content{
       margin:auto;
       background-image: url(../images/背景画像.jpg);
@@ -197,7 +197,7 @@ main{
     }     
   }
         
-@media(min-width: 769px){
+@media(min-width: 1000px){
   #profile_content{
     margin:auto;
     display:flex;
@@ -350,7 +350,7 @@ section#skills{
       text-align:left;
       margin-top:15px;
       
-      @media(max-width: 768px){
+      @media(max-width: 999px){
         p{
           display:block;
           margin:auto;
@@ -362,7 +362,7 @@ section#skills{
         }
       }
       
-      @media(min-width: 769px){
+      @media(min-width: 1000px){
         p{
           display:block;
           margin:auto;
@@ -393,7 +393,7 @@ section#skills{
   .content{
     display:block;
     
-    @media(min-width:769px){
+    @media(min-width:1000px){
       #ecsite{
         width:90%;
         display:flex;
@@ -597,7 +597,7 @@ section#skills{
       
     }
     
-    @media(max-width:768px){
+    @media(max-width:999px){
       #ecsite{
         width:90%;
         border-radius:5px;
@@ -834,7 +834,7 @@ section#skills{
       color:#fffafa;
     }
     
-    @media(min-width:769px){
+    @media(min-width:1000px){
       
       .form{
         display:block;
@@ -851,7 +851,7 @@ section#skills{
       
     }
       
-    @media(max-width:768px){
+    @media(max-width:999px){
       
       .form{
         display:block;

@@ -23,7 +23,7 @@ section {
 .text-center {
   text-align: center; }
 
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   .content {
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@ header {
       font-size: 2.0rem;
       text-decoration: none;
       color: #c0c0c0; }
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     header #sp-menu {
       display: block;
       font-size: 30px;
@@ -90,7 +90,7 @@ header {
           header #category.show ul li a {
             color: #778899; } }
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
   main #profile_content {
     margin: auto;
     background-image: url(../images/背景画像.jpg);
@@ -116,7 +116,7 @@ header {
       border-bottom: 35px solid #FFF;
       left: 43%;
       top: -50px; } }
-@media (min-width: 769px) {
+@media (min-width: 1000px) {
   main #profile_content {
     margin: auto;
     display: flex;
@@ -229,7 +229,7 @@ main section#skills {
     main section#skills #html_css .skill-description, main section#skills #php_laravel .skill-description, main section#skills #english .skill-description {
       text-align: left;
       margin-top: 15px; }
-      @media (max-width: 768px) {
+      @media (max-width: 999px) {
         main section#skills #html_css .skill-description p, main section#skills #php_laravel .skill-description p, main section#skills #english .skill-description p {
           display: block;
           margin: auto;
@@ -238,7 +238,7 @@ main section#skills {
           width: 50%;
           color: #fffafa;
           font-size: 1.3rem; } }
-      @media (min-width: 769px) {
+      @media (min-width: 1000px) {
         main section#skills #html_css .skill-description p, main section#skills #php_laravel .skill-description p, main section#skills #english .skill-description p {
           display: block;
           margin: auto;
@@ -255,7 +255,7 @@ main #works {
     padding-top: 80px; }
   main #works .content {
     display: block; }
-    @media (min-width: 769px) {
+    @media (min-width: 1000px) {
       main #works .content #ecsite {
         width: 90%;
         display: flex;
@@ -374,7 +374,7 @@ main #works {
             color: #b22222; }
           main #works .content #task_management .site-description .site_intro_icon a:last-child {
             margin-right: 0; } }
-    @media (max-width: 768px) {
+    @media (max-width: 999px) {
       main #works .content #ecsite {
         width: 90%;
         border-radius: 5px;
@@ -518,7 +518,7 @@ main #contact {
     margin: auto; }
     main #contact .content .title {
       color: #fffafa; }
-    @media (min-width: 769px) {
+    @media (min-width: 1000px) {
       main #contact .content .form {
         display: block;
         width: 350px;
@@ -528,7 +528,7 @@ main #contact {
         display: block;
         width: 350px;
         margin: auto; } }
-    @media (max-width: 768px) {
+    @media (max-width: 999px) {
       main #contact .content .form {
         display: block;
         width: 80%;
