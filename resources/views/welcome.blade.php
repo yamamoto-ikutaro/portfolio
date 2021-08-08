@@ -129,7 +129,7 @@
               </p>
               <div class="site_intro_icon">
                 <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
-                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/aEyS1uU8ruk5JzLb/9A3C7"><i class="far fa-map"></i>サイト設計</a>
+                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1IWMM9MCqEWTOuymHTUyya2zI4djwj_BiHjp7_zNIgYY/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@
               </p>
               <div class="site_intro_icon">
                 <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/task_management.git"><i class="fab fa-github"></i>コード</a>
-                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/r5tavQho0dS68jbq/92D69"><i class="far fa-map"></i>サイト設計</a>
+                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1bw-4xCp2oGafCe1d7KJXFBAqGZ3evpQ8okhy6FZpFGM/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
             <div class="site-image-box">
