@@ -125,11 +125,11 @@
               オンラインスクールでは、在庫切れ商品をカート内から自動で削除、注文時のトランザクション処理など独学では気付くことができていなかったところまでご指摘いただき、実装に至りました。<br>
               管理者機能も追加しており、注文情報の確認や商品の追加/編集/削除が可能です。商品画像のアップロードにはS3バケットを使用しています。<br>
               オンラインスクール受講後も学習を続け、商品検索機能やユーザーへの注文情報メール送信機能、商品削除時にS3バケット内から当該商品の画像が自動で削除される機能などを追加しています。<br>
-              ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1uN6fkOI1-LVHViN_rUJL0ukGiWQ9ssZP7Nua4_VjhMM/edit?usp=sharing">こちら</a>
+              ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1UxaXhIlCIQHF1g-CzA5YlKTmci9Y9vKfeLX9ervLi_8/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
                 <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/ecsite.git"><i class="fab fa-github"></i>コード</a>
-                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1UxaXhIlCIQHF1g-CzA5YlKTmci9Y9vKfeLX9ervLi_8/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
+                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/aEyS1uU8ruk5JzLb/9A3C7"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
           </div>
@@ -143,11 +143,11 @@
               また、伝達事項やToDoリストの追加が可能です。ToDoリストについては、メールでのリマインド機能を実装しており開発環境のcloud9では指定時間にリマインドメールが届きましたがHerokuへのデプロイ後使用不可になっています。(未解決の状態)<br>
               ナビゲーションバーの「メンバースケジュール」では、予定を確認したいメンバーを検索し追加することができます。
               <br>
-              ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1KtvR9xzLwvU1iw5qVs04_VOPpsbPasTHOOe1_1u3VDE/edit?usp=sharing">こちら</a>
+              ※詳細なサイト概要は<a target="_blank" href="https://docs.google.com/presentation/d/1bw-4xCp2oGafCe1d7KJXFBAqGZ3evpQ8okhy6FZpFGM/edit?usp=sharing">こちら</a>
               </p>
               <div class="site_intro_icon">
                 <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/task_management.git"><i class="fab fa-github"></i>コード</a>
-                <a class="cacoo" target="_blank" href="https://docs.google.com/presentation/d/1bw-4xCp2oGafCe1d7KJXFBAqGZ3evpQ8okhy6FZpFGM/edit?usp=sharing"><i class="far fa-map"></i>サイト設計</a>
+                <a class="cacoo" target="_blank" href="https://cacoo.com/diagrams/r5tavQho0dS68jbq/92D69"><i class="far fa-map"></i>サイト設計</a>
               </div>
             </div>
             <div class="site-image-box">
