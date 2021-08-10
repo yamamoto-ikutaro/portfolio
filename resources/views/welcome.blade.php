@@ -24,11 +24,9 @@
 </head>
 <body>
   @if (count($errors) > 0)
-      <ul id="validation">
-          @foreach ($errors->all() as $error)
-              <li>{{ $error }}</li>
-          @endforeach
-      </ul>
+      <div id="validation">
+          <div id="notification">フォームを再入力してください。</div>
+      </div>
   @endif
   @if(session('message'))
     <div id="session">
@@ -168,10 +166,26 @@
         <div class="content">
           <div class="text-center title">CONTACT</div>
           {!! Form::open(['route' => 'contact']) !!}
+            <div>
               {!! Form::text('name', null, ["class" => "form", 'placeholder' => '氏名']) !!}
+              @if($errors->first('name'))
+                  <p class="error">{{ $errors->first('name') }}</p>
+              @endif
+            </div>
+            <div>
               {!! Form::email('email', null, ["class" => "form", 'placeholder' => 'メールアドレス']) !!}
+              @if($errors->first('email'))
+                <p class="error">{{ $errors->first('email') }}</p>
+              @endif
+            </div>
               {!! Form::text('subject', null, ["class" => "form", 'placeholder' => '件名']) !!}
+              @if($errors->first('subject'))
+                <p class="error">{{ $errors->first('subject') }}</p>
+              @endif
               {!! Form::textarea('content', null, ['id' => 'form-message', 'placeholder' => 'メッセージ']) !!}
+              @if($errors->first('content'))
+                <p class="error">{{ $errors->first('content') }}</p>
+              @endif
             {!! Form::submit('送信', ["id" => "submit"]) !!}
           {!! Form::close() !!}
         </div>

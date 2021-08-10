@@ -55,7 +55,7 @@ header {
       margin-top: 25px;
       font-size: 2.0rem;
       text-decoration: none;
-      color: #c0c0c0; }
+      color: #FFF; }
   @media (max-width: 999px) {
     header #sp-menu {
       display: block;
@@ -527,7 +527,7 @@ main #contact {
       main #contact .content #form-message {
         display: block;
         width: 350px;
-        margin: auto; } }
+        margin: 0 auto 10px; } }
     @media (max-width: 999px) {
       main #contact .content .form {
         display: block;
@@ -537,7 +537,7 @@ main #contact {
       main #contact .content #form-message {
         display: block;
         width: 80%;
-        margin: auto; } }
+        margin: 0 auto 10px; } }
     main #contact .content #submit {
       width: 70px;
       padding: 5px;
@@ -549,17 +549,42 @@ main #contact {
       display: block;
       margin: 30px auto 0; }
 
-ul#validation {
-  font-size: 1.5rem;
-  color: #ff6347; }
-  ul#validation li.validation-message {
-    list-style: none; }
+#validation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: red;
+  color: #FFF;
+  font-size: 1.2rem;
+  position: fixed;
+  z-index: 99;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  left: 50%;
+  list-style: none; }
+  #validation #notification {
+    font-size: 1.6rem; }
+
+.error {
+  width: 80%;
+  margin: 0 auto 10px;
+  font-size: 1.2rem;
+  color: red; }
 
 #session {
   text-align: center;
-  font-size: 3.0rem;
-  background-color: #ff7f50;
   padding: 10px;
-  color: #ffffff; }
+  background-color: skyblue;
+  width: 50%;
+  margin: 20px auto 0;
+  font-size: 1.6rem;
+  color: #FFF;
+  position: fixed;
+  z-index: 99;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  left: 50%; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -94,7 +94,7 @@ header{
           margin-top:25px;
           font-size:2.0rem;
           text-decoration:none;
-          color:#c0c0c0;
+          color:#FFF;
         }
         
       }
@@ -846,7 +846,7 @@ section#skills{
       #form-message{
         display:block;
         width:350px;
-        margin:auto;
+        margin:0 auto 10px;
       }
       
     }
@@ -863,7 +863,7 @@ section#skills{
       #form-message{
         display:block;
         width:80%;
-        margin:auto;
+        margin:0 auto 10px;
       }
       
     }
@@ -887,20 +887,51 @@ section#skills{
 
 }
 
-ul#validation{
-  font-size:1.5rem;
-  color:#ff6347;
+// バリデーション関連
+#validation{
+  margin-top:20px;
+  padding: 10px;
+  background-color: red;
+  color: #FFF;
+  font-size: 1.2rem;
+  position: fixed;
+  z-index: 99;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  left: 50%;
+  list-style:none;
   
-  li.validation-message{
-    list-style:none;
+  #notification{
+    font-size: 1.6rem;
   }
   
 }
 
+.error{
+  width:80%;
+  margin:0 auto 10px;
+  font-size:1.2rem;
+  color:red;
+}
+// ここまで
+
+// セッションメッセージ
 #session{
-  text-align:center;
-  font-size:3.0rem;
-  background-color:#ff7f50;
-  padding:10px;
-  color:#ffffff;
+    text-align: center;
+    padding: 10px;
+    background-color: skyblue;
+    width: 50%;
+    margin: 20px auto 0;
+    font-size: 1.6rem;
+    color: #FFF;
+    position: fixed;
+    z-index: 99;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+// ここまで
+
+.hidden{
+  display:none;
 }
