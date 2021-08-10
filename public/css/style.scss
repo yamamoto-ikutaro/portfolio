@@ -923,12 +923,23 @@ footer{
   
 }
 
-.error{
-  width:80%;
-  margin:0 auto 10px;
-  font-size:1.2rem;
-  color:red;
+@media(min-width:1000px){
+  .error{
+    width:350px;
+    margin:0 auto 10px;
+    font-size:1.2rem;
+    color:red;
 }
+
+@media(max-width:999px){
+  .error{
+    width:80%;
+    margin:0 auto 10px;
+    font-size:1.2rem;
+    color:red;
+  }
+}
+
 // ここまで
 
 // セッションメッセージ
