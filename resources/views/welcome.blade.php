@@ -53,7 +53,7 @@
   </header>
   <main>
     <div id="profile_content">
-      <img src="images/梅の画像.jpg" alt="プロフィール写真" width="200px" height="200px" id="profile_image">
+      <img src="images/profile_image.jpg" alt="プロフィール写真" width="200px" height="200px" id="profile_image">
       <div id="intro">
         <p id="description">
           社会人3年目で、翻訳の仕事をしています。<br>約半年間プログラミング学習を続けており、<br>独学と2か月間のオンラインスクールを通して学んだHTML/CSS、PHP/Laravelでオリジナルサイトを作成しました。<br>
