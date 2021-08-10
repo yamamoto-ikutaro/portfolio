@@ -887,6 +887,22 @@ section#skills{
 
 }
 
+// フッター
+footer{
+  height:50px;
+  background-color:#808080;
+  text-align:center;
+  
+  a{
+    text-decoration:none;
+    color:#FFF;
+    font-size:2.0rem;
+    line-height:5.0rem;
+  }
+  
+}
+// ここまで
+
 // バリデーション関連
 #validation{
   margin-top:20px;

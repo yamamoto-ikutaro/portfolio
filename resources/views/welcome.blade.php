@@ -192,6 +192,9 @@
       </section>
     </div>
   </main>
+  <footer>
+    <a class="git" target="_blank" href="https://github.com/yamamoto-ikutaro/portfolio.git"><i class="fab fa-github"></i>当サイトのコード</a>
+  </footer>
   <script src="/js/main.js"></script>
 </body>
 </html>
