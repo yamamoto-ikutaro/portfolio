@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
-  <!-- Basic Page Needs
-  -------------------------------------------------- -->
   <meta charset="utf-8">
   <title>Portfolio</title>
   <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  -------------------------------------------------- -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- CSS
-  -------------------------------------------------- -->
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/b6083e34a0.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="css/style.css">
-  
-
 </head>
 <body>
   @if (count($errors) > 0)
-      <div id="validation">
-          <div id="notification">フォームを再入力してください。</div>
-      </div>
+    <div id="validation">
+        <div id="notification">フォームを再入力してください。</div>
+    </div>
   @endif
   @if(session('message'))
     <div id="session">
