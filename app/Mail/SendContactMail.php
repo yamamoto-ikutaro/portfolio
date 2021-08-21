@@ -10,6 +10,8 @@ use Illuminate\Queue\SerializesModels;
 class SendContactMail extends Mailable
 {
     use Queueable, SerializesModels;
+    
+    protected $contact;
 
     /**
      * Create a new message instance.
@@ -30,6 +32,6 @@ class SendContactMail extends Mailable
     {
         // dd($this->contact);
         // ▼view直下に置いているとエラー発生。
-        return $this->view('contact.message')->from($this->contact->email)->subject($this->contact->subject)->with(['contact' => $this->contact]);
+        return $this->view('contact.message')->subject($this->contact->subject)->with(['contact' => $this->contact]);
     }
 }

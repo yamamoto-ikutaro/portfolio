@@ -28,8 +28,6 @@ class ContactController extends Controller
             'content' => $request->content,
         ]);
         
-        // $contact = $request->all();
-        
         // dd($message);
         
         Mail::to("i.yamamoto.sxbx37@gmail.com")->send(new SendContactMail($contact));
