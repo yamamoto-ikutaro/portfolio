@@ -55,7 +55,7 @@
       <div class="content">
         <div id="html_css" class="text-center">
           <div class="skill-circle">
-            <h3 class="text-center" id="title_html_css">HTML/CSS</h3>
+            <h3 id="title_html_css">HTML/CSS</h3>
             <i class="fas fa-code" id="coding-icon"></i>
           </div>
           <div class="skill-description">
@@ -66,7 +66,7 @@
         </div>
         <div id="php_laravel" class="text-center">
           <div class="skill-circle">
-            <h3 class="text-center" id="title_php_laravel">PHP/Laravel</h3>
+            <h3 id="title_php_laravel">PHP/Laravel</h3>
             <i class="fab fa-php" id="php-icon"></i>
           </div>
           <div class="skill-description">
@@ -76,7 +76,7 @@
         </div>
         <div id="english" class="text-center">
           <div class="skill-circle">
-            <h3 class="text-center" id="title_english">English</h3>
+            <h3 id="title_english">English</h3>
             <i class="fas fa-pen" id="pen-icon"></i>
           </div>
           <div class="skill-description">

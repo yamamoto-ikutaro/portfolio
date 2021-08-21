@@ -192,39 +192,40 @@ main section#skills {
       main section#skills #html_css .skill-circle h3#title_html_css, main section#skills #php_laravel .skill-circle h3#title_html_css, main section#skills #english .skill-circle h3#title_html_css {
         position: absolute;
         top: 20px;
-        left: 25px;
-        font-size: 1.6rem; }
-      main section#skills #html_css .skill-circle h3#title_php, main section#skills #php_laravel .skill-circle h3#title_php, main section#skills #english .skill-circle h3#title_php {
-        position: absolute;
-        top: 20px;
-        left: 57px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 1.6rem; }
       main section#skills #html_css .skill-circle h3#title_php_laravel, main section#skills #php_laravel .skill-circle h3#title_php_laravel, main section#skills #english .skill-circle h3#title_php_laravel {
         position: absolute;
         top: 20px;
-        left: 12px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 1.6rem; }
       main section#skills #html_css .skill-circle h3#title_english, main section#skills #php_laravel .skill-circle h3#title_english, main section#skills #english .skill-circle h3#title_english {
         position: absolute;
         top: 20px;
-        left: 36px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 1.6rem; }
       main section#skills #html_css .skill-circle #coding-icon, main section#skills #php_laravel .skill-circle #coding-icon, main section#skills #english .skill-circle #coding-icon {
         position: absolute;
         top: 70px;
-        left: 45px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 5.0rem;
         color: #7fff00; }
       main section#skills #html_css .skill-circle #php-icon, main section#skills #php_laravel .skill-circle #php-icon, main section#skills #english .skill-circle #php-icon {
         position: absolute;
         top: 70px;
-        left: 45px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 5.0rem;
         color: #191970; }
       main section#skills #html_css .skill-circle #pen-icon, main section#skills #php_laravel .skill-circle #pen-icon, main section#skills #english .skill-circle #pen-icon {
         position: absolute;
         top: 70px;
-        left: 50px;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 5.0rem;
         color: #000000; }
     main section#skills #html_css .skill-description, main section#skills #php_laravel .skill-description, main section#skills #english .skill-description {
