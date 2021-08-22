@@ -709,9 +709,9 @@ section#skills{
         padding-bottom:30px;
         display:flex;
         flex-direction:column;
-        order:2;
         
         .site-image-box{
+          order: -1;
           
           .box-content{
             position:relative;
@@ -764,7 +764,6 @@ section#skills{
         
         
         .site-description{
-          order:1;
           color:#808080;
           
           h3{
